@@ -1,14 +1,26 @@
 html {
-    background-color: #0063be;
+    background-color: white;
 }
 body {
-    height: 200px;
+    height: 250px;
     width: 300px;
-    background-color: #0063be;
+    background-color: white;
 }
 
 #title {
     text-align: center;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: white;
+}
+#image_logo {
+    border-radius: 15%;
+    height: 20px;
+    margin-top: 0px;
+    margin-left: 0px;
+    border: 1px #0063be solid;
+    display: inline;
+}
+#text {
+    color: #0063be;
+    font-size: 30px;
+    font-family: sans-serif;
+    width: 70px;
 }

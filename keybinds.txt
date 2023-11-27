@@ -1,0 +1,34 @@
+-- VSCode:
+(ctrl + shift + p) = open command bar
+(ctrl + k) + (ctrl + o) = change active editor folder
+(ctrl + k) + (ctrl + s) = open keyboard shortcut page
+(ctrl + k) + (z) = zen mode (esc to cancel)
+
+
+-- Programming:
+Running: {
+    (alt + b) = run active file in browser (html)
+    (ctrl + alt + b) = run active file in terminal (c++, python, java)
+    (ctrl + alt + =) + (enter) = run firefox extension in browser
+}
+Other: {
+    (ctrl + `) = toggle terminal visibilty
+    (ctrl + alt + ;) = kill all terminals
+    (ctrl + tab) = switch between editors
+
+    (ctrl + n) = new file
+    (ctrl + shift + n) = new folder
+    (ctrl + alt + l) = "include common.h" macro
+}
+
+
+-- Github:
+Committing: {
+    (ctrl + alt + ,) = commit all changes
+    (ctrl + alt + .) = commit changes
+    (ctrl + alt + /) = sync changes
+}
+Other: {
+    (ctrl + shift + g) = open git commit list
+    (ctrl + alt + ') = discard commit message
+}

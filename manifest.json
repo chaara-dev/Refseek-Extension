@@ -15,10 +15,8 @@
         "default_popup": "popup/popup_page.html"
     },
     "web_accessible_resources": [
-        "RefSeek_logo_asterisk.gif",
-        "RefSeek_logo_lg.gif",
-        "RefSeek_logo_med_lg.gif",
-        "RefSeek_logo_med.gif"
+        "icons/*.gif",
+        "images/*gif"
     ],
 
     "background": {

@@ -1,3 +1,3 @@
-function on_search() {
-    window.close()
-}
+let logoIcon = browser.runtime.getURL("icons/RefSeek_logo_asterisk.gif");
+
+document.getElementById("image_logo").src = logoIcon;

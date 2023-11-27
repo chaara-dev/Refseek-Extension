@@ -1,0 +1,19 @@
+- Close popup on search
+[https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/user_interface/Popups]
+
+- Finish styling popup
+    - !! FIX IMAGES NOT APPEARING IN POPUP !!
+    - Add text inside search box
+    - add search icon to search box
+    - Add hyperlink at bottom for Refseek website
+    - Add a custom font or two
+
+
+- Context Menu (search highlighted text) 
+[https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/user_interface/Context_menu_items]
+
+- Customize search engine icon (in settings)
+
+- Link to profile (with more stuff)
+    - Buy me a coffee?
+

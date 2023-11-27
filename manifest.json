@@ -1,0 +1,38 @@
+{
+    "manifest_version": 2,
+    "name": "RefSeek Search",
+    "version": "1.0",
+    "description": "Search more than five billion documents, including web pages, books, encyclopedias, journals, and newspapers.",
+    "icons": {
+        "48": "icons/RefSeek_logo_asterisk.gif",
+        "96": "icons/RefSeek_logo_asterisk.gif"
+    },
+
+    "permissions": ["activeTab"],
+    "browser_action": {
+        "defualt_icon": "https://www.refseek.com/images/logo_asterisk.gif",
+        "default_title": "RefSeek Search",
+        "default_popup": "popup/popup_page.html"
+    },
+    "web_accessible_resources": [
+        "RefSeek_logo_asterisk.gif",
+        "RefSeek_logo_lg.gif",
+        "RefSeek_logo_med_lg.gif",
+        "RefSeek_logo_med.gif"
+    ],
+
+    "background": {
+        "scripts": [
+            "background.js"
+        ]
+    },
+    "chrome_settings_overrides" : {
+        "search_provider": {
+            "name": "RefSeek",
+            "search_url": "https://www.refseek.com/search?q={searchTerms}",
+            "keyword": "refseek",
+            "favicon_url": "https://www.refseek.com/images/logo_asterisk.gif",
+            "is_default": false
+        }
+    }
+}

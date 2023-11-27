@@ -24,3 +24,8 @@ body {
     font-family: sans-serif;
     width: 70px;
 }
+
+#buttons {
+    display: table;
+    margin: auto;
+}

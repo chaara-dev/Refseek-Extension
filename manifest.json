@@ -8,7 +8,7 @@
         "96": "icons/RefSeek_logo_asterisk.gif"
     },
 
-    "permissions": ["activeTab"],
+    "permissions": ["activeTab", "contextMenus", "menus", "search"],
     "browser_action": {
         "defualt_icon": "https://www.refseek.com/images/logo_asterisk.gif",
         "default_title": "RefSeek Search",
@@ -22,14 +22,15 @@
     "background": {
         "scripts": [
             "background.js"
-        ]
+        ],
+        "persistent": false
     },
     "chrome_settings_overrides" : {
         "search_provider": {
             "name": "RefSeek",
             "search_url": "https://www.refseek.com/search?q={searchTerms}",
             "keyword": "refseek",
-            "favicon_url": "https://www.refseek.com/images/logo_asterisk.gif",
+            "favIconUrl": "https://www.refseek.com/images/logo_asterisk.gif",
             "is_default": false
         }
     }

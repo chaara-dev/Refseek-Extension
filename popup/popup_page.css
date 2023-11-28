@@ -9,6 +9,7 @@ body {
 
 #title {
     text-align: center;
+    margin-bottom: 0px;
 }
 #image_logo {
     border-radius: 15%;
@@ -47,12 +48,12 @@ body {
     background-color: #0077e6
 }
 
-footer {
-    position: absolute;
-    bottom: 15px;
+#credit {
     width: 300px;
     margin: 0 auto;
     text-align: center;
+    padding-bottom: 20px;
+    margin-top: 0px;
 }
 
 #linkbrickplacer:link {

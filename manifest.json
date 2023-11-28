@@ -4,7 +4,9 @@
     "version": "1.0",
     "description": "Search more than five billion documents, including web pages, books, encyclopedias, journals, and newspapers.",
     "icons": {
+        "32": "icons/RefSeek_logo_asterisk.gif",
         "48": "icons/RefSeek_logo_asterisk.gif",
+        "64": "icons/RefSeek_logo_asterisk.gif",
         "96": "icons/RefSeek_logo_asterisk.gif"
     },
 

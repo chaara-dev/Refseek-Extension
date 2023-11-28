@@ -7,6 +7,7 @@ body {
     background-color: white;
 }
 
+
 #title {
     text-align: center;
     margin-bottom: 0px;
@@ -26,27 +27,6 @@ body {
     width: 70px;
 }
 
-#buttons {
-    display: table;
-    margin: auto;
-}
-
-.links, .links:link, .links:visited, .links:hover {
-    background-color: #004f99;
-    height: 40px;
-    width: 70px;
-    padding: 4px;
-    border-radius: 10%;
-    text-decoration: none;
-    color: white;
-}
-
-.links:hover {
-    background-color: #0069cc
-}
-.links:active {
-    background-color: #0077e6
-}
 
 #credit {
     width: 300px;
@@ -55,7 +35,6 @@ body {
     padding-bottom: 20px;
     margin-top: 0px;
 }
-
 #linkbrickplacer:link {
     text-decoration: none;
     color: gray;
@@ -67,4 +46,25 @@ body {
 }
 #linkbrickplacer:hover {
     text-decoration: underline;
+}
+
+
+#buttons {
+    display: table;
+    margin: auto;
+}
+.links, .links:link, .links:visited, .links:hover {
+    background-color: #004f99;
+    height: 40px;
+    width: 70px;
+    padding: 4px;
+    border-radius: 10%;
+    text-decoration: none;
+    color: white;
+}
+.links:hover {
+    background-color: #0069cc
+}
+.links:active {
+    background-color: #0077e6
 }

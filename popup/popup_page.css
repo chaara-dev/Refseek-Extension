@@ -29,3 +29,20 @@ body {
     display: table;
     margin: auto;
 }
+
+.links, .links:link, .links:visited, .links:hover {
+    background-color: lightblue;
+    height: 40px;
+    width: 70px;
+    padding: 4px;
+    border-radius: 15%;
+    text-decoration: none;
+    color: black;
+}
+
+.links:hover {
+    background-color: rgb(131, 202, 226);
+}
+.links:active {
+    background-color: rgb(80, 160, 187);
+}

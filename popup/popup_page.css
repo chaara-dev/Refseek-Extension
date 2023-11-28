@@ -46,3 +46,24 @@ body {
 .links:active {
     background-color: #0077e6
 }
+
+footer {
+    position: absolute;
+    bottom: 15px;
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#linkbrickplacer:link {
+    text-decoration: none;
+    color: gray;
+    font-size: small;
+}
+#linkbrickplacer:visited {
+    text-decoration: none;
+    color: gray;
+}
+#linkbrickplacer:hover {
+    text-decoration: underline;
+}

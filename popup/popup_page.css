@@ -15,7 +15,7 @@ body {
     height: 20px;
     margin-top: 0px;
     margin-left: 0px;
-    border: 1px #0063be solid;
+    border: 2px #0063be solid;
     display: inline;
 }
 #text {
@@ -31,18 +31,18 @@ body {
 }
 
 .links, .links:link, .links:visited, .links:hover {
-    background-color: lightblue;
+    background-color: #004f99;
     height: 40px;
     width: 70px;
     padding: 4px;
-    border-radius: 15%;
+    border-radius: 10%;
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 .links:hover {
-    background-color: rgb(131, 202, 226);
+    background-color: #0069cc
 }
 .links:active {
-    background-color: rgb(80, 160, 187);
+    background-color: #0077e6
 }

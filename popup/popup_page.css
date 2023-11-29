@@ -70,7 +70,7 @@ body {
 }
 
 #version {
-    background-color: gray;
+    background-color: lightgray;
     border-radius: 5px;
     position: absolute;
     text-align: center;

@@ -5,6 +5,7 @@ body {
     height: 250px;
     width: 300px;
     background-color: white;
+    user-select: none;
 }
 
 

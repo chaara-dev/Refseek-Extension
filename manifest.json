@@ -10,7 +10,7 @@
         "96": "icons/RefSeek_logo_asterisk.gif"
     },
 
-    "permissions": ["activeTab", "contextMenus", "menus", "search"],
+    "permissions": ["contextMenus", "menus", "search"],
     "browser_action": {
         "defualt_icon": "https://www.refseek.com/images/logo_asterisk.gif",
         "default_title": "RefSeek Search",
@@ -22,9 +22,7 @@
     ],
 
     "background": {
-        "scripts": [
-            "background.js"
-        ],
+        "scripts": ["background.js"],
         "persistent": false
     },
     "chrome_settings_overrides" : {
